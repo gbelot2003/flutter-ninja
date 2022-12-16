@@ -34,7 +34,7 @@ class _NinjaCardState extends State<NinjaCard> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Center(
+            const Center(
               child: CircleAvatar(
                 radius: 40,
                 backgroundImage: NetworkImage(
@@ -45,11 +45,11 @@ class _NinjaCardState extends State<NinjaCard> {
               height: 90,
               color: Colors.grey[800],
             ),
-            Text(
+            const Text(
               'NAME',
               style: TextStyle(color: Colors.grey, letterSpacing: 2.0),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Text(
@@ -60,14 +60,14 @@ class _NinjaCardState extends State<NinjaCard> {
                   fontSize: 28.0,
                   fontWeight: FontWeight.bold),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
-            Text(
+            const Text(
               'Current Ninja Level',
               style: TextStyle(color: Colors.grey, letterSpacing: 2.0),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Text(
@@ -78,7 +78,7 @@ class _NinjaCardState extends State<NinjaCard> {
                   fontSize: 28.0,
                   fontWeight: FontWeight.bold),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             Row(
@@ -87,7 +87,7 @@ class _NinjaCardState extends State<NinjaCard> {
                   Icons.email,
                   color: Colors.grey[400],
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
                 Text(
